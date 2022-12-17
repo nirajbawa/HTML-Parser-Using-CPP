@@ -1,0 +1,20 @@
+ SQL Server JOINS
+ In real life, we store our data in multiple logical tables that are linked together by a common key value in
+ relational databases like SQL Server, Oracle, MySQL, and others. As a result,
+ we constantly need to get data from two or more tables into the desired output based on some conditions. We can
+ quickly achieve this type of data in SQL Server using the SQL JOIN clause.
+ This article gives a complete overview of JOIN and its different types with an example.
+ 
+ INNER JOIN
+ 
+ This JOIN returns all records from multiple tables that satisfy the specified join condition. It is the simple
+ and most popular
+ form of join and assumes as a default join. If we omit the INNER keyword with the JOIN query, we will get the
+ same output.
+ SELF JOIN
+ A table is joined to itself using the SELF JOIN. It means that each table row is combined with itself and with
+ every other table row. The SELF JOIN can be thought of as a JOIN of two copies of the same tables.
+ We can do this with the help of table name aliases to assign a specific name to each table's instance. The table
+ aliases enable us to use the table's temporary name that we are going to use in the query.
+ It's a useful way to extract hierarchical data and comparing rows inside a single table.
+ 
